@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floatContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/float_background">
+
+    <LinearLayout
+        android:id="@+id/lyricContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/lyricText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_lyrics"
+            android:textSize="16sp"
+            android:textColor="@color/lyric_default"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/controlPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|end"
+        android:visibility="gone"
+        android:padding="4dp">
+
+        <ImageButton
+            android:id="@+id/moveUpBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/control_button_bg"
+            android:src="@android:drawable/arrow_up_float"
+            android:layout_marginEnd="4dp" />
+
+        <ImageButton
+            android:id="@+id/moveDownBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/control_button_bg"
+            android:src="@android:drawable/arrow_down_float"
+            android:layout_marginEnd="4dp" />
+
+        <ImageButton
+            android:id="@+id/moveLeftBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/control_button_bg"
+            android:src="@android:drawable/ic_media_previous"
+            android:layout_marginEnd="4dp" />
+
+        <ImageButton
+            android:id="@+id/moveRightBtn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/control_button_bg"
+            android:src="@android:drawable/ic_media_next" />
+
+    </LinearLayout>
+
+</FrameLayout>
