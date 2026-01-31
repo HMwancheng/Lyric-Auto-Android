@@ -1,5 +1,7 @@
 # Lyric Auto - Android悬浮窗歌词APP
 
+[![Build Android APK](https://github.com/HMwancheng/Lyric-Auto-Android/actions/workflows/build.yml/badge.svg)](https://github.com/HMwancheng/Lyric-Auto-Android/actions/workflows/build.yml)
+
 一款Android端高版本可用的悬浮窗歌词APP，能读取系统正在播放的歌曲，并自动从网上下载、本地缓存获取歌词并按当前播放进度显示歌词。
 
 ## 功能特性
@@ -77,3 +79,9 @@ MIT License
 ## 致谢
 
 - 歌词数据来源：网易云音乐
+
+---
+
+## 下载地址
+
+构建完成后，可以从 [GitHub Actions](https://github.com/HMwancheng/Lyric-Auto-Android/actions) 页面下载最新的APK文件。
